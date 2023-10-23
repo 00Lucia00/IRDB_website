@@ -1,11 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: Roboto, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, sans-serif;
+  color: whitesmoke;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url());
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(IRDB_images\background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+}
+.nav {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col {
+  flex-basis: 50%;
+}
+h1 {
+  font-size: 80px;
+}
+button {
+  width: 180px;
+  color: black;
+  padding: 12px;
+  border-radius: 30%;
+  border-bottom: 1cm;
+  margin-top: 30px;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10%;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(IRDB_images/movieImage/FightClub.jpg);
+  background-position: center;
+  background-size: cover;
 }
